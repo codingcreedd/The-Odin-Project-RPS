@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <script src="scripts/rps.js" defer></script>
+</head>
+<body>
+
+    <section class="score-section">
+        <div class="score-div">
+            <h3>SCORE</h3>
+            <div class="current-score">
+                <p class="player-name">PLAYER</p>
+                <p class="player-score number">0</p>
+            </div>
+
+            <div class="current-score">
+                <p>COMPUTER</p>
+                <p class="computer-score number">0</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="game-section before-choice">
+        <div id="rock-choice" class="game-div">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
+            <img src="Images-icons/fist.png" alt="">
+        </div>
+
+        <div id="paper-choice" class="game-div">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
+            <img src="Images-icons/hand-paper.png" alt=""></div>
+
+        <div id="scissors-choice" class="game-div">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
+            <img src="Images-icons/scissors.png" alt="">
+        </div>
+    </section>
+
+    <div class="end-result-container hide">
+        <div class="end-result-div">
+            <h1>You Win</h1>
+            <p>5 - 0</p>
+        </div>
+    </div>
+
+    <section class="game-section after-choice">
+        <div id="" class="game-div player-choice">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
+            <img src="" alt="">
+        </div>
+
+        <div id="" class="game-div computer-choice">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
+            <img src="" alt="">
+        </div>
+    </section>
+
+
+    <nav class="controls-section">
+        <button class="reset-btn">Reset Game</button>
+        <button class="firstTo-btn">First to</button>
+        <button class="bestOf-btn">Best of</button>
+        <button class="quit-btn">Quit</button>
+    </nav>
+</body>
+</html>
